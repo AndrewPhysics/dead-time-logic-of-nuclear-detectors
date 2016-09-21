@@ -15,9 +15,8 @@
  within a unit of time (eg. second) follows a Poisson distribution. In probability theory and statistics, the Poisson distribution
  is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval
  of time and/or space if these events occur with a known average rate and independently of the time since the last event. The
- Poisson distribution is an appropriate model for event hamdling if the following assumptions are true: 1. events occur independently,
- 2. the rate at which events occur is constant, 3. two events cannot occur at exactly the same instant, 4. the probability of an event
- in an interval is proportional to the length of the interval.
+ Poisson distribution is an appropriate model for event hamdling if the following assumptions are true: I. events occur independently,
+ II. the rate at which events occur is constant, III. two events cannot occur at exactly the same instant, IV. the probability of an event in an interval is proportional to the length of the interval.
 
 3. Applications of the Poisson distribution can be found in many fields related to counting:
 
