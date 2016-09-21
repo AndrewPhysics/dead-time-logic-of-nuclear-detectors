@@ -18,7 +18,7 @@
  Poisson distribution is an appropriate model for event hamdling if the following assumptions are true: I. events occur independently,
  II. the rate at which events occur is constant, III. two events cannot occur at exactly the same instant, IV. the probability of an event in an interval is proportional to the length of the interval.
 
-3.  Applications of the Poisson distribution can be found in many fields related to counting:
+Applications of the Poisson distribution can be found in many fields related to counting:
 
  - Telecommunication example: telephone calls arriving in a system.
  - Astronomy example: photons arriving at a telescope.
@@ -28,4 +28,4 @@
  - Earthquake seismology example: an asymptotic Poisson model of seismic risk for large earthquakes. 
  - Radioactivity example: number of decays in a given time interval in a radioactive sample.
 
-4. C++ implementation:
+3. C++ implementation:
