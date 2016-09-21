@@ -1,9 +1,9 @@
 # dead-time-logic-of-nuclear-detectors
  1. basic description:
  
- For detection systems that record discrete events, such as particle and nuclear detectors, the dead time is the time after each event during which the system is not able to record another event. An everyday life example of this is what happens when someone takes a photo using a flash, another picture cannot be taken immediately afterward because the flash needs a few seconds to recharge. This work is focused on dead time and the subsequent count loss estimation. The dead time is the minimum amount of time required between two events to permit detection or  of those events individually by a processing chains. If events occur during the system dead time, they are lost. Such lost information can be important in many applications including high-precision spectroscopy, positron emission tomography (PET), and the scanning of spent nuclear fuel. Understanding of the behavior of radiation detection systems is important; thus this work included a comprehensive review of dead time models 1. paralizable and 2. non-paralizable logics with C++ implementation in Visual Studio.
- 
- 2. Poisson distribution of incoming events
+ For detection systems that record discrete events, such as particle and nuclear detectors, the dead time is the time after each event when the system is not able to record another event. This work is focused on dead time handling and the subsequent count loss estimation. The dead time is the minimum amount of time required between two events to permit detection of those events individually by processing chains. If events occur during the system dead time, they are lost. Such lost information can be important in many applications including high-precision spectroscopy, positron emission tomography (PET), and the scanning of spent nuclear fuel. Thus this work included a comprehensive review of dead time models 1. paralizable and 2. non-paralizable logics with C++ implementation in Visual Studio.
+
+  2. Poisson distribution of incoming events
  
  During nuclear processes (for example beta-decay which producing gamma-photons), it is true that the number of occurring events within a unit of time (eg. second) follows a Poisson distribution. In probability theory and statistics, the Poisson distribution is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time and/or space if these events occur with a known average rate and independently of the time since the last event.
  
@@ -15,6 +15,7 @@
  - Two events cannot occur at exactly the same instant.
  - The probability of an event in an interval is proportional to the length of the interval.
 
+Meg kell vizsgálni a rátákat
  Applications of the Poisson distribution can be found in many fields related to counting:
 
  - Telecommunication example: telephone calls arriving in a system.
