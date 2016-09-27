@@ -26,10 +26,23 @@
 
  3. C++ implementation:
  
- For example in a beta-decay which producing gamma-photons in nucler detectors, the time of the incoming events sould be recorded
+ For example in a beta-decay which producing gamma-photons in nucler detectors, the time of the incoming events should be recorded
  by an electronic processing chain. The arrival times of events are elements of an increasing geometric series. The series is
- increasing normaly with the follow-up time. The follow-up time is changing in an interval as a random variable wich follows
- Poisson distribution. The follow-up values are generated with the Poisson Distribution class template from random header file. 
+ increasing with the follow-up time. The follow-up time is changing in an interval as a random variable which follows a
+ Poisson distribution. The follow-up values are generated with the Poisson Distribution class template from random header file.
+ The generated fullow-up time numbers are trully Poisson distributed. It can be checked in Excell by making a histogram of
+ them.
+ 
+ The following steps are needed to simulate the experiment:
+ 
+ a. make an increasing geometric series with fullow-up time with Poisson distribution
+ b. check follow-up time numbers weater it is really Poisson distributed
+ c. open deadtime window to control pile-up events
+ d. make loss estimation
+ 
+ 
+ 
+ 
 
 
 
