@@ -29,7 +29,7 @@
  For example in a beta-decay which producing gamma-photons in nucler detectors, the time of the incoming events sould be recorded
  by an electronic processing chain. The arrival times of events are elements of an increasing geometric series. The series is
  increasing normaly with the follow-up time. The follow-up time is changing in an interval as a random variable wich follows
- Poisson distribution. The follow-up values are generated with the Poisson Distribution class template in the in random header file. 
+ Poisson distribution. The follow-up values are generated with the Poisson Distribution class template from random header file. 
 
 
 
