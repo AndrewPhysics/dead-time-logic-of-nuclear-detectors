@@ -46,7 +46,10 @@
  called the Dead Time) for example to integrate the signal to see its energy and to empty the registers in the physical
  detector. After this procedure the system is ready to handle the next event. If two events arrives between the system Dead
  Time then the integration process will not be succesful since the signal shape is not recognizable anymore. This is called
- the Pile-Up effect. So to avoid Pile-Up effect a Dead Time windows must be opened. If mean value of the Poisson distributed    
+ the Pile-Up effect. So to avoid Pile-Up effect a Dead Time windows must be opened. If the mean value of the Poisson
+ distributed arrival times is t then it means the probability of the fullow up time will be average t. If the event number is 
+ a large number then it is a good estimation to say the average is equal to the mean value. So t_dead<t is 
+ a good selection    
  
  
  
