@@ -16,12 +16,20 @@
  is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval
  of time and/or space if these events occur with a known average rate and independently of the time since the last event. The
  Poisson distribution is an appropriate model for event handling if the following assumptions are true: I. events occur independently,
- II. the rate at which events occur is constant, III. two events cannot occur at exactly the same time, IV. the probability of an event in an interval is proportional to the length of the interval. Applications of the Poisson distribution can be found in many fields related to counting: telecommunication example when telephone calls arriving in a system, astronomy example: photons arriving at a telescope, biology example: the number of mutations on a strand of DNA per unit length, management example: customers arriving at a counter or call centre, finance and insurance example: number of losses/claims occurring in a given period of time, earthquake seismology example: an asymptotic Poisson model of seismic risk for large earthquakes, radioactivity example: number of decays in a given time interval in a radioactive sample.
+ II. the rate at which events occur is constant, III. two events cannot occur at exactly the same time, IV. the probability of 
+ an event in an interval is proportional to the length of the interval. Applications of the Poisson distribution can be found
+ in many fields related to counting: telecommunication example when telephone calls arriving in a system, astronomy example:
+ photons arriving at a telescope, biology example: the number of mutations on a strand of DNA per unit length, management
+ example: customers arriving at a  counter or call centre, finance and insurance example: number of losses/claims occurring in
+ a given period of time, earthquake seismology example: an asymptotic Poisson model of seismic risk for large earthquakes, 
+ radioactivity example: number of decays in a given time interval in a radioactive sample.
 
  3. C++ implementation:
  
- For example in a beta-decay which producing gamma-photons in nucler detectors, the time of the incoming events sould be recorded by  
- an electronic processing chain. The arrival times of events are elements of an increasing geometric series. The series is increasing normaly with the follow-up time. The follow-up time is changing in an interval as a random variable wich follows Poisson distribution. The follow-up values are generated with the Poisson Distribution class template in the in random header file. 
+ For example in a beta-decay which producing gamma-photons in nucler detectors, the time of the incoming events sould be recorded
+ by an electronic processing chain. The arrival times of events are elements of an increasing geometric series. The series is
+ increasing normaly with the follow-up time. The follow-up time is changing in an interval as a random variable wich follows
+ Poisson distribution. The follow-up values are generated with the Poisson Distribution class template in the in random header file. 
 
 
 
