@@ -24,7 +24,7 @@
  a given period of time, earthquake seismology example: an asymptotic Poisson model of seismic risk for large earthquakes, 
  radioactivity example: number of decays in a given time interval in a radioactive sample.
 
- 3. C++ implementation:
+ 3. generating arrival times with Poisson distribution:
  
  For example in a beta-decay which producing gamma-photons in nucler detectors, the time of the incoming events should be recorded
  by an electronic processing chain. The arrival times of events are elements of an increasing geometric series. The series is
@@ -40,6 +40,13 @@
  c. open deadtime window to control pile-up events
  d. make loss estimation
  
+ 4. opening dead time window
+ 
+ Lets say that in the current processing chain if an icoming event accures then the electronics need some time (it is
+ called the Dead Time) for example to integrate the signal to see its energy and to empty the registers in the physical
+ detector. After this procedure the system is ready to handle the next event. If two events arrives between the system Dead
+ Time then the integration process will not be succesful since the signal shape is not recognizable anymore. This is called
+ the Pile-Up effect. So to avoid Pile-Up effect a Dead Time windows must be opened. If mean value of the Poisson distributed    
  
  
  
